@@ -42,7 +42,6 @@ function calculate() {
     }
 }
 
-// 故意註解掉或刪除這個函數
 /*
 function calculate() {
     try {
