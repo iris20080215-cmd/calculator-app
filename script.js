@@ -42,21 +42,7 @@ function calculate() {
     }
 }
 
-/*
-function calculate() {
-    try {
-        currentInput = eval(currentInput).toString();
-        updateDisplay();
-    } catch (error) {
-        currentInput = 'Error';
-        updateDisplay();
-        setTimeout(() => {
-            currentInput = '0';
-            updateDisplay();
-        }, 1500);
-    }
-}
-*/
+
 // 在 script.js 末尾增加
 function calculatePercentage() {
     try {
