@@ -54,3 +54,19 @@ function calculatePercentage() {
         }, 1500);
     }
 }
+// 故意註解掉或刪除這個函數
+/*
+function calculate() {
+    try {
+        currentInput = eval(currentInput).toString();
+        updateDisplay();
+    } catch (error) {
+        currentInput = 'Error';
+        updateDisplay();
+        setTimeout(() => {
+            currentInput = '0';
+            updateDisplay();
+        }, 1500);
+    }
+}
+*/
